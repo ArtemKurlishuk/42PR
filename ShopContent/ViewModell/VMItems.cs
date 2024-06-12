@@ -9,8 +9,8 @@ namespace ShopContent.ViewModell
 {
     public class VMItems : INotifyPropertyChanged
     {
-        public ObjectDisposedException<Context.ItemsContext> Items {  get; set; }
-        public Classes.RelayCommand NewItems
+        public ObservableCollection<Context.ItemsContext> Items {  get; set; }
+        public Classes.RelayCommand NewItem
         {
             get
             {
