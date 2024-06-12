@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShopContent"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" FontFamily="Century Gothic" Icon="">
+        Title="MainWindow" Height="450" Width="800" FontFamily="Century Gothic" Icon="/Images/ic_shop.png">
     <Grid>
         <Frame x:Name="frame" NavigationUIVisibility="Hidden" Margin="5,55,5,5" Background="White"/>
         <Grid VerticalAlignment="Top" Height="50" Background="White">
@@ -15,7 +15,7 @@
         </Grid>
         <Label Content="Вещи для дома" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15pt"/>
         <Image Width="30" Height="30" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left"
-               Source="" MouseDown="OpenIndex"/>
+               Source="/Images/ic_shop.png" MouseDown="OpenIndex"/>
 
     </Grid>
 </Window>
